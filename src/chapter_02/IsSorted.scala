@@ -1,3 +1,5 @@
+package chapter_02
+
 object IsSorted {
   // This works, but the authors' solution reversed the semantics of `ordered`.
   // They used `gt` which means a > b. That's not how I interpreted `ordered` to be.

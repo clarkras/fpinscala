@@ -1,3 +1,5 @@
+package chapter_02
+
 object Fibonacci {
   def factorial(n: Int): Int = {
     def go(n: Int, acc: Int): Int =

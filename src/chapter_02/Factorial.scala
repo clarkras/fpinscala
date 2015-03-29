@@ -1,3 +1,5 @@
+package chapter_02
+
 object Factorial {
   def factorial(n: Int): Int = {
     def go(n: Int, acc: Int): Int =
