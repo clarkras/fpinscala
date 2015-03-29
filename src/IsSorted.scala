@@ -15,5 +15,7 @@ object IsSorted {
   def main(args: Array[String]) {
     println("ordered", isSorted(Array(0, 1, 2), inOrder))
     println("not ordered", isSorted(Array(0, 2, 1), inOrder))
+    // With an anonymous function
+    println("ordered", isSorted(Array(0, 1, 2), (a: Int, b: Int) => b > a))
   }
 }
