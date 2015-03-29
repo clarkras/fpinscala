@@ -18,7 +18,7 @@ object RemainingExercises {
     (a, b) => f(a)(b)
 
   // Exercise 5: composition
-  def compose[A,B,C](f: A => B, g: B => C): A => C =
-    a => g(f(a))
+  def compose[A,B,C](f: B => C, g: A => B): A => C =
+    a => f(g(a))
 
 }
