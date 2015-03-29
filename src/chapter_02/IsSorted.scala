@@ -19,5 +19,8 @@ object IsSorted {
     println("not ordered", isSorted(Array(0, 2, 1), inOrder))
     // With an anonymous function
     println("ordered", isSorted(Array(0, 1, 2), (a: Int, b: Int) => b > a))
+    // With strings
+    println("ordered", isSorted(Array("x", "b", "c"), (a: String, b: String) => b > a))
+    println("ordered", isSorted(Array("a", "b", "c"), (a: String, b: String) => b > a))
   }
 }
